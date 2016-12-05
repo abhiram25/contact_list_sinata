@@ -1,0 +1,24 @@
+---
+Family:
+  da585733:
+    :first_name: Raghuram
+    :last_name: Reddy
+    :email: raghu.reddy@gmail.com
+    :phone: 678-793-2760
+Friends:
+  9794fefd:
+    :first_name: Abhiram
+    :last_name: Reddy
+    :email: abhi.reddy1@gmail.com
+    :phone: '6783132760'
+  377c89de:
+    :first_name: Allen
+    :last_name: hollis
+    :email: allen.hollis@gmail.com
+    :phone: 404-456-3939
+Work:
+  5652cda5:
+    :first_name: John
+    :last_name: Doe
+    :email: john.doe@gmail.com
+    :phone: 404-566-4324

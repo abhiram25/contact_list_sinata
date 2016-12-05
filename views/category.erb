@@ -1,0 +1,11 @@
+<h1 class="center"><%= @category %></h1>
+
+<% if @contacts %>
+	<ul>
+		<% @contacts.each do |key, value| %>
+			<a href="<%= @category %>/<%= key %>/<%= @contacts[key][:first_name] %>%<%= @contacts[key][:last_name] %>">
+				<li><%= @contacts[key][:first_name] %> <%= @contacts[key][:last_name] %></li>
+			</a>
+		<% end %>
+	</ul>
+<% end %>

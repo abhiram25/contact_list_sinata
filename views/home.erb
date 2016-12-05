@@ -1,0 +1,6 @@
+<a href="/add_contact">Add Contact</a>
+<ul>
+	<% @categories.each do |category| %>
+		<li><a href="/<%= category %>"><%= category %></a></li>
+	<% end %>
+</ul>
